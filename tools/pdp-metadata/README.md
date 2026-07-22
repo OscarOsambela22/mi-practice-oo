@@ -6,12 +6,12 @@ It is recommended to import product metadata into Edge Delivery so that it can b
 This is important so Google Merchant Center can reliably verify entries from your product sheet.
 Also social media sites which usually do not parse JavaScript can leverage this metadata to display rich previews of your product page links.
 
-This project is designed to fetch product data from catalog service, process it, and generate both a metadata spreadsheet in XLSX format and a JSON file which can be used for the <https://www.aem.live/docs/bulk-metadata> feature in Edge Delivery.
+This project is designed to fetch product data from Catalogservice, process it, and generate both a metadata spreadsheet in XLSX format and a JSON file which can be used for the <https://www.aem.live/docs/bulk-metadata> feature in Edge Delivery.
 
 ## Prerequisites
 
 - Node.js installed on your machine.
-- Access to the catalog service with the necessary API keys and configuration.
+- Access to the Catalogservice with the necessary API keys and configuration.
 
 ## Installation
 
@@ -21,7 +21,7 @@ This project is designed to fetch product data from catalog service, process it,
 
 ## Configuration
 
-Before running the application, you need to ensure the `configFile` variable in `pdp-metadata.js` points to the correct configuration JSON file URL. This file contains the required parameters to access Catalog Service and should have been setup as part of your project onboarding.
+Before running the application, you need to ensure the `configFile` variable in `pdp-metadata.js` points to the correct configuration JSON file URL. This file contains the required parameters to access CatalogService and should have been setup as part of your project onboarding.
 
 ## Running the Application
 
